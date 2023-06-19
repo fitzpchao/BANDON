@@ -8,7 +8,9 @@ off-nadir aerial images dataset (***BANDON***) to address the problem of accurat
 ## BANDON
 ### Demo
 ![](./figure/bandon_example.png)
-the BANDON dataset contains 2283 pairs of images, 2283 change labels, 1891 BT-flows labels,
+
+
+The BANDON dataset contains 2283 pairs of images, 2283 change labels, 1891 BT-flows labels,
 1891 pairs of segmentation labels, and 1891 pairs of ST-offsets labels ( test sets do not provide auxiliary annotations
 ), which is superior to many existing building change detection datasets in different aspects
 
