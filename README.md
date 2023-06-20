@@ -105,7 +105,7 @@ The test results will be saved in `pred_path=workdirs_bandon/MTGCDNet/config_GPU
 Step5：Evaluation of the predicted results.
 
 ```
-python eval_scripts/cal_iou_BANDONv2.py --pred_path your pred_path in step4 --root_dataset your BANDON path
+python eval_scripts/cal_iou_BANDON.py --pred_path your pred_path in step4 --root_dataset your BANDON path
 ```
 
 ## Citation
