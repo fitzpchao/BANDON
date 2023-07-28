@@ -19,9 +19,6 @@ from .uper_head import UPerHead
 from .cls_head import CLSHead
 from .shared_fcn_head import SharedFCNHead
 from .forward_head import ForwardHead
-from .mask2former_head import Mask2FormerHead
-from .mask2former_head_instance import Mask2FormerHeadInstance
-from .mask2former_utils import *
 __all__ = [
     'FCNHead', 'PSPHead', 'ASPPHead', 'PSAHead', 'NLHead', 'GCHead', 'CCHead',
     'UPerHead', 'DepthwiseSeparableASPPHead', 'ANNHead', 'DAHead', 'OCRHead',
