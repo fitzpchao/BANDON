@@ -111,8 +111,8 @@ data_root='your train set path'
 Step3: Execute the run command.
 
 ```
-sh workdirs_bandon/changeformer_bandon/train.sh 2 
-# 2 is the number of GPUs
+sh workdirs_bandon/changeformer_bandon/train.sh 8 
+# 8 is the number of GPUs
 ```
 ### Test and eval
 Step 1-2: Refer to the training process.
