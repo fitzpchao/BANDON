@@ -55,6 +55,29 @@ The information of the change detection sample pairs in this dataset is saved in
 /imgs/sh/t1/L81_892823_780495.jpg /imgs/sh/t3/L81_892823_780495.jpg /labels_unch0ch1ig255/sh/t1VSt3/L81_892823_780495.png /building_labels/sh/t1/L81_892823_780495.png /building_labels/sh/t3/L81_892823_780495.png /offset_st_resize256/sh/t1/L81_892823_780495.tif /offset_st_resize256/sh/t3/L81_892823_780495.tif /flow_btv3_resize256/sh/t1VSt3/L81_892823_780495.tif
 /imgs/sh/t1/L81_892863_780487.jpg /imgs/sh/t2/L81_892863_780487.jpg /labels_unch0ch1ig255/sh/t1VSt2/L81_892863_780487.png /building_labels/sh/t1/L81_892863_780487.png /building_labels/sh/t2/L81_892863_780487.png /offset_st_resize256/sh/t1/L81_892863_780487.tif /offset_st_resize256/sh/t2/L81_892863_780487.tif /flow_btv3_resize256/sh/t1VSt2/L81_892863_780487.tif
 ```
+### LEVIR-CD style dataset struct
+We also provide an anthor dataset file with the LEVIR-CD style struct in 'BANDON_Index.zip‘ at this line [BaiDu Netdisk](https://pan.baidu.com/s/158yJGXhMJngBIc4pBvHQVA)(pwd:6g4w), for consistency with other change detection datasets. The organization of the BANDON dataset in this zip package is shown below, which is compatible with existing mainstream change detection codes for greater clarity, but elevates storage space requirements compared to the original organization.
+
+```
+ -BANDON_Index
+    |- train
+        |- imgs
+            |- A
+                |- train_0.jpg
+                |- train_1.jpg
+                |- ...
+            |- B
+        |- labels_unch0ch1ig255
+            |- train_0.png
+            |- train_1.png
+            |- ....
+        |- building_labels
+        |- offset_st_resize256
+        |- flow_bt_resize256
+    |- val
+    |- test
+    |- test_ood
+```
 
 ## MTGCDNet
 We also provide the source code for this work, which is built upon [mmsegmentation](https://github.com/open-mmlab/mmsegmentation).
